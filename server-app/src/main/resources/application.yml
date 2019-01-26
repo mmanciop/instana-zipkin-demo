@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: instana-zipkin-demo_server-app
+  sleuth:
+    sampler:
+      probability: 1
+  zipkin:
+    baseUrl: http://instana-agent:42699
+
+logging:
+  level:
+    org.springframework: INFO # DEBUG

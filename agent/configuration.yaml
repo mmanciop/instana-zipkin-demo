@@ -1,0 +1,3 @@
+com.instana.plugin.javatrace:
+  instrumentation:
+    enabled: false
